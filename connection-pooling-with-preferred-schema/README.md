@@ -1,5 +1,5 @@
 Use object pool instead of managing connections yourself. Something like the following
-
+```java
 public class SchemaAwareConnectionPool {
     private static final Logger logger = LoggerFactory.getLogger(SchemaAwareConnectionPool.class);
 
@@ -46,3 +46,4 @@ public class SchemaAwareConnectionPool {
         connectionPool.close();
     }
 }
+```
